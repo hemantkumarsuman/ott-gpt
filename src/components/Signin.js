@@ -10,7 +10,6 @@ const Signin = () => {
 
     let [isSignIn,setIsSignIn] = useState(true);
     let [errMessage,setErrMessage] = useState(null);
-    const navigate = useNavigate();
 
     const email = useRef(null);
     const password = useRef(null);
@@ -33,7 +32,6 @@ const Signin = () => {
                 // Signed up 
                 const user = userCredential.user;
                 console.log(user);
-                navigate("/browser")
                 // ...
             })
             .catch((error) => {
@@ -51,7 +49,6 @@ const Signin = () => {
                 // Signed in 
                 const user = userCredential.user;
                 console.log(user);
-                navigate("/browse")
                 // ...
             })
             .catch((error) => {
