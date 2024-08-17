@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
+import { LOGO } from "../utils/Constants";
 
 const Header = () => {
 
@@ -41,7 +42,7 @@ const Header = () => {
 
   return (
     <div className="absolute px-8 py-2 z-10 w-screen flex justify-between h-20 w-screen bg-gray-600">
-        <img className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9EcEdLx94xl-Yw1qll4jQd8xEUTEDaEY5-w&s" 
+        <img className="" src={LOGO}
         alt="logo"/>
 
         <div className="flex justify-between">
