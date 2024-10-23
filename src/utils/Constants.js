@@ -11,3 +11,5 @@ export const API_OPTIONS = {
 export const IMG_CDN_URL = 'https://image.tmdb.org/t/p/w500/';
 
 export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_large.jpg";
+
+export const OPENAI_KEY = "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";
